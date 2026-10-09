@@ -1,41 +1,28 @@
-# VytaminF Ltd Website
+# VytaminF Ltd — Website V2
 
-A static website for VytaminF Ltd.
+This is the replacement institutional-style website for VytaminF Ltd.
 
-## Free deployment with GitHub Pages
+## Replace the current GitHub Pages site
 
-1. Create a new public GitHub repository named `vytaminfltd`.
-2. Upload `index.html`, `styles.css`, and `script.js`.
-3. Open **Settings > Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`.
-6. Save.
+1. Open your existing `vytaminfltd` repository on GitHub.
+2. Click `Add file` -> `Upload files`.
+3. Upload these three files:
+   - `index.html`
+   - `styles.css`
+   - `script.js`
+4. If GitHub says files already exist, confirm the replacements.
+5. Commit the changes to `main`.
+6. GitHub Pages will redeploy automatically.
+7. Refresh your live site after about 1–3 minutes.
 
-Your site will be available at:
+No Pages settings need to be changed.
 
-`https://YOUR-GITHUB-USERNAME.github.io/vytaminfltd/`
+## Positioning
 
-## Custom free subdomain
+The site presents VytaminF Ltd as:
+- a founder-led proprietary trading and research company;
+- focused on order flow, market microstructure, execution, futures and derivatives;
+- currently operating without external client capital;
+- aiming to develop into an institutionally credible investment operation over time.
 
-If you obtain a free subdomain that supports CNAME records, point that name to:
-
-`YOUR-GITHUB-USERNAME.github.io`
-
-Then add the custom domain in **Settings > Pages > Custom domain**.
-
-## Email
-
-The contact email currently shown is:
-
-`founder@vytaminfltd.is-app.top`
-
-Change it in `index.html` if your final free subdomain or email address is different.
-
-## Important wording
-
-The site deliberately states that VytaminF Ltd:
-- operates in simulated proprietary trading environments;
-- does not manage external client capital;
-- does not offer investment advice, brokerage, or asset management.
-
-This keeps the website aligned with the business model described.
+It intentionally does not claim that VytaminF Ltd is already a hedge fund or asset manager.
